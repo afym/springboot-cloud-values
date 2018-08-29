@@ -1,3 +1,3 @@
 #!/bin/bash
-DEPLOY_PATH=$(pwd)
-echo DEPLOY_PATH
+docker build -t angelfym/cloud-values:latest .
+docker tag angelfym/cloud-values:latest angelfym/cloud-values:upload
